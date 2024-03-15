@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "510877610885",
+    "project_id": "ar-moustaches-app",
+    "storage_bucket": "ar-moustaches-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510877610885:android:53f88f3e06e20b225d0aec",
+        "android_client_info": {
+          "package_name": "com.example.moustache_ar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6d_NU0Y3wAiqz-fIP4wXJnWS32oZ0-dI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
