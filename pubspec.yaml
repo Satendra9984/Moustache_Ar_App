@@ -37,12 +37,22 @@ dependencies:
   cupertino_icons: ^1.0.2
   google_mlkit_face_detection: 0.8.0
   firebase_core: ^2.27.0
+  image_picker: ^1.0.7
+  flutter_bloc: ^8.1.4
+  equatable: ^2.0.5
+  camera: ^0.10.5+9
+  path_provider: ^2.1.2
+  image: ^4.1.7
+  ffi: ^2.1.0
+  hive: ^2.2.3
   # arcore_flutter_plugin: ^0.2.0-alpha
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  hive_generator: ^1.1.0
+  build_runner: ^2.1.0
+  
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -62,8 +72,10 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/images/moustaches-collection/moustache_1.jpg
+    - assets/images/moustaches-collection/moustache_7.png
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
